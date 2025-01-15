@@ -1,17 +1,17 @@
 {
-  "name": "wasm-generate-wave",
+  "name": "rust-generate-wave",
   "type": "module",
   "collaborators": [
     "atarax"
   ],
   "version": "0.1.0",
   "files": [
-    "wasm_generate_wave_bg.wasm",
-    "wasm_generate_wave.js",
-    "wasm_generate_wave.d.ts"
+    "rust_generate_wave_bg.wasm",
+    "rust_generate_wave.js",
+    "rust_generate_wave.d.ts"
   ],
-  "main": "wasm_generate_wave.js",
-  "types": "wasm_generate_wave.d.ts",
+  "main": "rust_generate_wave.js",
+  "types": "rust_generate_wave.d.ts",
   "sideEffects": [
     "./snippets/*"
   ]

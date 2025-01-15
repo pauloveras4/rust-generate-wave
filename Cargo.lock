@@ -84,6 +84,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust-generate-wave"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "js-sys",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
 name = "rustversion"
 version = "1.0.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -224,16 +234,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "wasm-generate-wave"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "js-sys",
- "wasm-bindgen",
- "wasm-bindgen-test",
 ]
 
 [[package]]
