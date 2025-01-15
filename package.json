@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/pauloveras4/rust-generate-wave/issues"
   },
-  "homepage": "https://github.com/pauloveras4/rust-generate-wave#readme"
+  "homepage": "https://github.com/pauloveras4/rust-generate-wave#readme",
+  "files": [
+      "pkg/**/*"
+  ]
 }
