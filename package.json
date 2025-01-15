@@ -2,12 +2,13 @@
   "name": "rust-generate-wave",
   "version": "1.0.0",
   "description": "<div align=\"center\">",
-  "main": "index.js",
+  "main": "./pkg/index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wasm-pack build --target web"
   },
   "repository": {
     "type": "git",
