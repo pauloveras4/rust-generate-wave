@@ -1,5 +1,5 @@
 [package]
-name = "wasm-generate-wave"
+name = "rust-generate-wave"
 version = "0.1.0"
 authors = ["atarax"]
 edition = "2018"
